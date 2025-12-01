@@ -7,6 +7,9 @@ d = a * 3600 + b * 60 + c
 print('Суммарно секунд: ',d)
 
 def main():
+    a = int(input())
+    b = int(input())
+    c = int(input())
     total(d)
 if __name__ == '__main__':
     main()
