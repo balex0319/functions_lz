@@ -1,6 +1,5 @@
 import math
-print('Введите температуру в градусах по Цельсию: ')
-T = float(input())
+T = float(input('Введите температуру в градусах по Цельсию: '))
 def temperature(T):
     return T * 1.8 + 32
 a = temperature(T)
