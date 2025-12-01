@@ -1,6 +1,5 @@
 import math
-print('Введите число: ')
-C = int(input())
+C = int(input('Введите число: '))
 def number(C):
     if C % 2 == 0:
         print('Четное число')
